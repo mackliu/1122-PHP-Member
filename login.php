@@ -8,6 +8,7 @@ $pdo=new PDO($dsn,'root','');
 
 //$sql="select * from users where `acc`='$acc' && `pw`='$pw'";
 $sql="select count(*) from users where `acc`='$acc' && `pw`='$pw'";
+
 //$user=$pdo->query($sql)->fetch();
 $user=$pdo->query($sql)->fetchColumn();
 //print_r($user);
