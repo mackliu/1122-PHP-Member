@@ -8,7 +8,8 @@
 <body>
 <h1>哈哈購商城</h1>
 <header>
-    <a href="reg.php">註冊</a><a href="login.php">登入</a>
+    <a href="reg.php">註冊</a>
+    <a href="login.php">登入</a>
 </header>
 </body>
 </html>
