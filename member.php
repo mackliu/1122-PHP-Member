@@ -75,14 +75,9 @@ include_once "./include/connect.php";
             <input type="hidden" name="id" id="id" value="<?=$user['id'];?>">
             <input class="btn-primary mx-2" type="submit" value="更新">
             <input class="btn btn-warning mx-2" type="reset" value="重置">
+            <input class="btn btn-danger mx-2" type="button" value="讓我消失吧" onclick="location.href='del_user.php?id=<?=$user['id'];?>'">
         </div>    
     </form>
-<form action="del_user.php" method='post'>
-    <input type="hidden" name="id" value="<?=$user['id'];?>">
-    <input class="btn btn-danger mx-2" type="submit" value="讓我消失吧">
-
-</form>
-
 </div>
 </body>
 </html>
